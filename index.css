@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(87, 53, 53);
+  padding: 2em 10em;
+  color: rgb(175, 168, 168);
+}
+.beforeheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.contact,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.navbar {
+  background-color: rgb(71, 34, 34);
+  padding: 0.2em 0;
+  border-radius: 1em;
+  margin: 1em 0;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
+.li {
+  padding-right: 1.5em;
+  border-right: 1px solid rgb(83, 68, 68);
+  height: 1em;
+}
+.about {
+  background: rgb(122, 81, 81);
+  padding: 1em 1em;
+  margin-top: 2em;
+  border-radius: 1em;
+  box-shadow: 7px 14px 9px 3px rgba(0, 0, 0, 0.62);
+}
+.about-t {
+  font-size: 2em;
+}
+.line {
+  background: none;
+  border: none;
+  border-top: 2px dotted;
+}
+.desc {
+  font-size: 0.5em;
+  word-wrap: normal;
+}
